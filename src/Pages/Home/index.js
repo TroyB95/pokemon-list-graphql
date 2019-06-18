@@ -13,6 +13,7 @@ const getDataQuery = gql`
       number
       name
       image
+      id
     }
   }
 `;
@@ -24,8 +25,8 @@ function HomePage(props) {
 
   return (
     <>
-      {props.data.pokemons.map((pokemon, i) => (
-        <Link to={`/${pokemon.name}`} key={i}>
+      {props.data.pokemons.map(pokemon => (
+        <Link to={`/${pokemon.name}`} key={pokemon.id}>
           <Card cardImg={pokemon.image} cardName={pokemon.name} cardNumber={pokemon.number} />
         </Link>
       ))}
