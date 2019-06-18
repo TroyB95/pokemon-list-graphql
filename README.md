@@ -1,5 +1,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Task
+
+React application that consumes data via a GraphQL endpoint and displays that data on the page using components. The data will come in the form of a list of Pokemon, these should be displayed as a list and each one should click through to an individual Pokemon stats view.
+
+## Improvements
+
+Improvements that could be made would be data caching, prefetch data which is in viewport?, Improved styling, More test cases, end-to-end testing (cypress) to name a few.
+
 ## Available Scripts
 
 In the project directory, you can run:

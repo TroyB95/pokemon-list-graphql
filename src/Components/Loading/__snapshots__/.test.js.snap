@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loading Component should render loading text and a pikachu image 1`] = `
+<div
+  className="loading"
+>
+  Loading...
+  <img
+    alt="the Pokemon Pikachu"
+    className="loading__image"
+    src="pikachu.svg"
+  />
+</div>
+`;
