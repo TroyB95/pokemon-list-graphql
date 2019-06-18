@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardComponent should render an image, name and number 1`] = `
+<div
+  className="card"
+>
+  <img
+    alt="the pokemon Test Name"
+    className="card__image"
+    src=""
+  />
+  <p
+    className="card__name"
+  >
+    Test Name
+  </p>
+  <p
+    className="card__number"
+  >
+    001
+  </p>
+</div>
+`;
